@@ -5,7 +5,7 @@
 <div id="friends">
   <% @friends.each do |friend| %>
     <%= render friend %>
-    <%= link_to "Show this friend", friend %>
+    <%= link_to "Show this friend", friend, class:"btn btn-success"%>
   <% end %>
 </div>
 <%= link_to "New friend", new_friend_path, class:"btn btn-success" %>

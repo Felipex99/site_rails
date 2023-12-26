@@ -1,5 +1,5 @@
 <table class="table table-dark table-hover">
-  <thead>
+  <thead id="<%= dom_id friend%>">
     <tr>
       <th scope="col">#</th>
       <th scope="col">First Name</th>
@@ -9,10 +9,13 @@
       <th scope="col">Twitter</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody >
     <tr>
       <th scope="row">1</th>
-      <td>Felipe</td>
+      <td><%= friend.primeiro_nome%></td>
+    </tr>
+    <tr>
+
     </tr>
   </tbody>
 </table>
